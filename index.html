@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOPSIS Web App</title>
+</head>
+<body style="font-family:Arial; padding:30px;">
+
+    <h2>TOPSIS Decision Making Tool</h2>
+
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+
+        <label>Upload CSV File:</label><br>
+        <input type="file" name="file" required><br><br>
+
+        <label>Enter Weights (comma separated):</label><br>
+        <input type="text" name="weights" required><br><br>
+
+        <label>Enter Impacts (+ or - comma separated):</label><br>
+        <input type="text" name="impacts" required><br><br>
+
+        <label>Enter Email ID:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <button type="submit">Run TOPSIS</button>
+    </form>
+
+    <br><br>
+
+    <p style="color:green;">{{ message }}</p>
+
+</body>
+</html>
