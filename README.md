@@ -3,7 +3,8 @@
 This repository contains a comprehensive implementation of the **Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS)**. The project covers three main components: a command-line interface (CLI) tool, a published Python package (PyPI), and a web-based service that emails results to users.
 
 ## 📸 Web Service Implementation (Local Host)
-![Uploading image.png…]()
+<img width="1240" height="795" alt="image" src="https://github.com/user-attachments/assets/d745f04a-c18f-4188-8d24-d76cac6526b2" />
+
 
 
 
@@ -92,4 +93,5 @@ The alternatives are ranked based on $P_i$ values in descending order. The highe
 ### Command Line
 ```bash
 python <program.py> <InputDataFile> <Weights> <Impacts> <OutputResultFileName>
+
 
